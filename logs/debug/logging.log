@@ -1,0 +1,30 @@
+2021-06-21 12:41:32,619 [INFO ] com.amazon.navigation.tests.AmazonBaseTest.beforeTestMethod(AmazonBaseTest.java:21) : Thread[main,5,main] Start method signInSignOutTest
+2021-06-21 12:41:32,634 [INFO ] com.common.core.framework.utils.FileUtils.getKeyFromPropertyFile(FileUtils.java:62) : Loading properties
+2021-06-21 12:41:35,210 [INFO ] com.common.core.framework.driver.DriverFactory.getDriver(DriverFactory.java:68) : Thread id = 1
+2021-06-21 12:41:35,225 [INFO ] com.common.core.framework.base.BasePage.<init>(BasePage.java:31) : Driver is null and initializing it in BasePage class
+2021-06-21 12:41:35,293 [DEBUG] com.common.core.framework.base.BasePage.<init>(BasePage.java:33) : Initializing driver in BaseTest
+2021-06-21 12:41:38,327 [INFO ] com.common.core.framework.base.BasePage.<init>(BasePage.java:45) : Driver is not null and it in BasePage class
+2021-06-21 12:41:38,328 [INFO ] com.amazon.navigation.pages.HomePage.goToSignInPage(HomePage.java:84) : Clicking on signing link
+2021-06-21 12:41:38,346 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.click(ElementActions.java:119) : Clicking element : [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> xpath: //span[contains(text(),'Hello, Sign in')]]
+2021-06-21 12:41:38,346 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:38,373 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForElementToBeClickable(ElementActions.java:106) : Waiting for element to be clickable: [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> xpath: //span[contains(text(),'Hello, Sign in')]]
+2021-06-21 12:41:38,374 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:41,154 [INFO ] com.amazon.navigation.pages.SignInPage.signIn(SignInPage.java:44) : Starting sign in process
+2021-06-21 12:41:41,167 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.sendKeys(ElementActions.java:142) : Sending : temp.test.interview.mail@gmail.com for element : [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: ap_email]
+2021-06-21 12:41:41,167 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:41,180 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForElementToBeClickable(ElementActions.java:106) : Waiting for element to be clickable: [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: ap_email]
+2021-06-21 12:41:41,180 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:41,374 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.click(ElementActions.java:119) : Clicking element : [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: continue]
+2021-06-21 12:41:41,374 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:41,387 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForElementToBeClickable(ElementActions.java:106) : Waiting for element to be clickable: [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: continue]
+2021-06-21 12:41:41,387 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:42,599 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.sendKeys(ElementActions.java:142) : Sending : Testing@123 for element : [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: ap_password]
+2021-06-21 12:41:42,599 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:42,612 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForElementToBeClickable(ElementActions.java:106) : Waiting for element to be clickable: [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: ap_password]
+2021-06-21 12:41:42,612 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:42,708 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.click(ElementActions.java:119) : Clicking element : [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: signInSubmit]
+2021-06-21 12:41:42,724 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:42,737 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForElementToBeClickable(ElementActions.java:106) : Waiting for element to be clickable: [[ChromeDriver: chrome on MAC (3143c5b5dcc201d51ea8c39dc04461cb)] -> id: signInSubmit]
+2021-06-21 12:41:42,737 [DEBUG] com.commoon.core.framework.web.utils.ElementActions.waitForPageLoad(ElementActions.java:82) : Waiting for page load
+2021-06-21 12:41:47,658 [INFO ] com.amazon.navigation.tests.AmazonBaseTest.afterTestMethod(AmazonBaseTest.java:26) : Thread[main,5,main] Finish method signInSignOutTest
+2021-06-21 12:41:47,865 [INFO ] com.common.core.framework.base.BaseTest.afterTestSuite(BaseTest.java:39) : Test Suite Execution Time: 0 minutes.

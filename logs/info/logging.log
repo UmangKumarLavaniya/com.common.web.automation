@@ -1,0 +1,9 @@
+2021-06-21 12:41:32,619 [INFO ] com.amazon.navigation.tests.AmazonBaseTest.beforeTestMethod(AmazonBaseTest.java:21) : Thread[main,5,main] Start method signInSignOutTest
+2021-06-21 12:41:32,634 [INFO ] com.common.core.framework.utils.FileUtils.getKeyFromPropertyFile(FileUtils.java:62) : Loading properties
+2021-06-21 12:41:35,210 [INFO ] com.common.core.framework.driver.DriverFactory.getDriver(DriverFactory.java:68) : Thread id = 1
+2021-06-21 12:41:35,225 [INFO ] com.common.core.framework.base.BasePage.<init>(BasePage.java:31) : Driver is null and initializing it in BasePage class
+2021-06-21 12:41:38,327 [INFO ] com.common.core.framework.base.BasePage.<init>(BasePage.java:45) : Driver is not null and it in BasePage class
+2021-06-21 12:41:38,328 [INFO ] com.amazon.navigation.pages.HomePage.goToSignInPage(HomePage.java:84) : Clicking on signing link
+2021-06-21 12:41:41,154 [INFO ] com.amazon.navigation.pages.SignInPage.signIn(SignInPage.java:44) : Starting sign in process
+2021-06-21 12:41:47,658 [INFO ] com.amazon.navigation.tests.AmazonBaseTest.afterTestMethod(AmazonBaseTest.java:26) : Thread[main,5,main] Finish method signInSignOutTest
+2021-06-21 12:41:47,865 [INFO ] com.common.core.framework.base.BaseTest.afterTestSuite(BaseTest.java:39) : Test Suite Execution Time: 0 minutes.
