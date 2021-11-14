@@ -27,7 +27,7 @@
 i.e. 	`url=https://www.amazon.com`
 		`browser=chrome`
 		`remoteDriver=false`
-		`apppassword=<your_cobra_app_password>`
+		`apppassword=<your_app_password>`
 6. Goto project location (till you see build.gradle file) in command line interface.
 7. Locate `src/test/resources/testng.xml` file and right click and run as `Run as TestNG Suite`
 8. If all the softwares are downloaded properly,browser will pop up and test cases will start executing.
